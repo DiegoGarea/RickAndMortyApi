@@ -9,7 +9,6 @@ const SingleCharacter = () => {
   useEffect(() => {
     singleChar(id, setSingle);
   }, []);
-  // console.log(single);
 
   return (
     <>

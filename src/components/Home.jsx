@@ -18,7 +18,7 @@ const Home = () => {
               <li key={character.id}>
                 <Link to={`/character/${character.id}`}>
                   <p>{character.name}</p>
-                  <img src={character.image} alt={character.name} />
+                  <img src={character.image} alt={character.id} />
                 </Link>
               </li>
             ))}
